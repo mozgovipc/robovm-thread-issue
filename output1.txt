@@ -1,0 +1,84 @@
+2014-10-12 13:24:46.134: Backend => main_thread_send1 65523
+2014-10-12 13:24:46.135: Backend => main_thread_send1 65524
+2014-10-12 13:24:46.137: Backend => main_thread_send1 65525
+2014-10-12 13:24:46.137: Backend => main_thread_send1 65526
+2014-10-12 13:24:46.138: Backend => main_thread_send1 65527
+2014-10-12 13:24:46.139: Backend => main_thread_send1 65528
+2014-10-12 13:24:46.140: Backend => main_thread_send1 65529
+2014-10-12 13:24:46.141: Backend => main_thread_send1 65530
+2014-10-12 13:24:46.556 IOSLauncher[2173:125680] [info] IOSApplication: IOSApplication step 303
+2014-10-12 13:24:47.507 IOSLauncher[2173:125680] [info] IOSApplication: IOSApplication step 304
+2014-10-12 13:24:48.512 IOSLauncher[2173:125680] [info] IOSApplication: IOSApplication step 305
+2014-10-12 13:24:49.507 IOSLauncher[2173:125680] [info] IOSApplication: IOSApplication step 306
+2014-10-12 13:24:50.507 IOSLauncher[2173:125680] [info] IOSApplication: IOSApplication step 307
+
+2014-10-12 13:43:11.320: Backend => main_thread_send1 65525
+2014-10-12 13:43:11.321: Backend => main_thread_send1 65526
+2014-10-12 13:43:11.323: Backend => main_thread_send1 65527
+2014-10-12 13:43:11.324: Backend => main_thread_send1 65528
+2014-10-12 13:43:11.329: Backend => main_thread_send1 65529
+2014-10-12 13:43:11.330: Backend => main_thread_send1 65530
+2014-10-12 13:43:11.867 IOSLauncher[2281:130721] [info] IOSApplication: IOSApplication step 398
+2014-10-12 13:43:12.840 IOSLauncher[2281:130721] [info] IOSApplication: IOSApplication step 399
+2014-10-12 13:43:13.848 IOSLauncher[2281:130721] [info] IOSApplication: IOSApplication step 400
+2014-10-12 13:43:14.837 IOSLauncher[2281:130721] [info] IOSApplication: IOSApplication step 401
+2014-10-12 13:43:15.839 IOSLauncher[2281:130721] [info] IOSApplication: IOSApplication step 402
+
+2014-10-12 13:57:54.780: Backend => main_thread_send1 65525
+2014-10-12 13:57:54.781: Backend => main_thread_send1 65526
+2014-10-12 13:57:54.782: Backend => main_thread_send1 65527
+2014-10-12 13:57:54.783: Backend => main_thread_send1 65528
+2014-10-12 13:57:54.784: Backend => main_thread_send1 65529
+2014-10-12 13:57:54.785: Backend => main_thread_send1 65530
+2014-10-12 13:57:55.774 IOSLauncher[2424:135542] [info] IOSApplication: IOSApplication step 148
+2014-10-12 13:57:56.774 IOSLauncher[2424:135542] [info] IOSApplication: IOSApplication step 149
+2014-10-12 13:57:57.774 IOSLauncher[2424:135542] [info] IOSApplication: IOSApplication step 150
+2014-10-12 13:57:58.775 IOSLauncher[2424:135542] [info] IOSApplication: IOSApplication step 151
+2014-10-12 13:57:59.776 IOSLauncher[2424:135542] [info] IOSApplication: IOSApplication step 152
+2014-10-12 13:58:00.776 IOSLauncher[2424:135542] [info] IOSApplication: IOSApplication step 153
+
+
+2014-10-12 14:00:24.901: Backend => main_thread_send1 65525
+2014-10-12 14:00:24.901: Backend => main_thread_send1 65526
+2014-10-12 14:00:24.902: Backend => main_thread_send1 65527
+2014-10-12 14:00:24.902: Backend => main_thread_send1 65528
+2014-10-12 14:00:24.902: Backend => main_thread_send1 65529
+2014-10-12 14:00:24.902: Backend => main_thread_send1 65530
+2014-10-12 14:00:25.585 IOSLauncher[2455:136890] [info] IOSApplication: IOSApplication step 44
+2014-10-12 14:00:26.585 IOSLauncher[2455:136890] [info] IOSApplication: IOSApplication step 45
+2014-10-12 14:00:27.581 IOSLauncher[2455:136890] [info] IOSApplication: IOSApplication step 46
+2014-10-12 14:00:28.582 IOSLauncher[2455:136890] [info] IOSApplication: IOSApplication step 47
+2014-10-12 14:00:29.583 IOSLauncher[2455:136890] [info] IOSApplication: IOSApplication step 48
+
+
+2014-10-12 21:36:41.736: Backend => main_thread_send1 65526
+2014-10-12 21:36:41.736: Backend => main_thread_send1 65527
+2014-10-12 21:36:41.737: Backend => main_thread_send1 65528
+2014-10-12 21:36:41.737: Backend => main_thread_send1 65529
+2014-10-12 21:36:41.737: Backend => main_thread_send1 65530
+2014-10-12 21:36:42.236 IOSLauncher[3869:208482] [info] IOSApplication: IOSApplication step 72
+2014-10-12 21:36:43.237 IOSLauncher[3869:208482] [info] IOSApplication: IOSApplication step 73
+2014-10-12 21:36:44.236 IOSLauncher[3869:208482] [info] IOSApplication: IOSApplication step 74
+
+
+2014-10-13 22:50:20.859: Backend => main_thread_send1 65525
+2014-10-13 22:50:20.860: Backend => main_thread_send1 65526
+2014-10-13 22:50:20.860: Backend => main_thread_send1 65527
+2014-10-13 22:50:20.860: Backend => main_thread_send1 65528
+2014-10-13 22:50:20.860: Backend => main_thread_send1 65529
+2014-10-13 22:50:20.860: Backend => main_thread_send1 65530
+2014-10-13 22:50:20.892 IOSLauncher[8258:431263] [info] IOSApplication: IOSApplication step 29
+2014-10-13 22:50:21.885 IOSLauncher[8258:431263] [info] IOSApplication: IOSApplication step 30
+2014-10-13 22:50:22.886 IOSLauncher[8258:431263] [info] IOSApplication: IOSApplication step 31
+2014-10-13 22:50:23.887 IOSLauncher[8258:431263] [info] IOSApplication: IOSApplication step 32
+
+
+
+
+
+
+
+
+
+
+10/12/14 1:26:43 PM: [ERROR] Session could not be started: Error Domain=LaunchServicesError Code=0 "Unable to run app in Simulator" UserInfo=0x7fccb14930b0 {Error=PackagePatchFailed, ErrorDescription=Could not hardlink copy /Users/admin/Library/Developer/CoreSimulator/Devices/30F3C52C-1FC8-4D79-A721-F37FF853DB47/data/Containers/Bundle/Application/7CA7F4BD-9F17-473E-B1B9-051A024CAB1F/IOSLauncher.app to /Users/admin/Library/Developer/CoreSimulator/Devices/30F3C52C-1FC8-4D79-A721-F37FF853DB47/data/Library/Caches/com.apple.mobile.installd.staging/temp.mWxlgE/extracted/Payload/IOSLauncher.app with manifest /Users/admin/Library/Developer/CoreSimulator/Devices/30F3C52C-1FC8-4D79-A721-F37FF853DB47/data/Library/Caches/com.apple.mobile.installd.staging/temp.mWxlgE/extracted/com.apple.deltainstallcommands.com.mgrvm.thread.IOSLauncher, NSLocalizedFailureReason=An error was encountered while running (Domain = LaunchServicesError, Code = 0), NSUnderlyingError=0x7fccb1539be0 "The operation couldn’t be completed. (LaunchServicesError error 0.)", NSLocalizedDescription=Unable to run app in Simulator}
