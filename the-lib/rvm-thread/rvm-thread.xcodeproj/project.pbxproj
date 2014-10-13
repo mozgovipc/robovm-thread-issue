@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8439325F19E92F1F00BEE1CB /* StaticStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439325E19E92F1F00BEE1CB /* StaticStuff.m */; };
+		8439326719E9383500BEE1CB /* backend.c in Sources */ = {isa = PBXBuildFile; fileRef = 8439326519E9383500BEE1CB /* backend.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8439322C19E92D1700BEE1CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Users/admin/Documents/workspace3/ios/lib;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8439322E19E92D1800BEE1CB /* librvm-thread.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librvm-thread.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8439323919E92D1800BEE1CB /* rvm-threadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rvm-threadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8439323C19E92D1800BEE1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8439324519E92E7300BEE1CB /* jni_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jni_types.h; sourceTree = "<group>"; };
+		8439324619E92E7300BEE1CB /* jni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jni.h; sourceTree = "<group>"; };
+		8439324819E92E7300BEE1CB /* access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = access.h; sourceTree = "<group>"; };
+		8439324919E92E7300BEE1CB /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		8439324A19E92E7300BEE1CB /* atomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atomic.h; sourceTree = "<group>"; };
+		8439324B19E92E7300BEE1CB /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
+		8439324C19E92E7300BEE1CB /* class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = class.h; sourceTree = "<group>"; };
+		8439324D19E92E7300BEE1CB /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
+		8439324E19E92E7300BEE1CB /* field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		8439324F19E92E7300BEE1CB /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
+		8439325019E92E7300BEE1CB /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		8439325119E92E7300BEE1CB /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
+		8439325219E92E7300BEE1CB /* method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = method.h; sourceTree = "<group>"; };
+		8439325319E92E7300BEE1CB /* monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = monitor.h; sourceTree = "<group>"; };
+		8439325419E92E7300BEE1CB /* mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
+		8439325519E92E7300BEE1CB /* native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = native.h; sourceTree = "<group>"; };
+		8439325619E92E7300BEE1CB /* proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
+		8439325719E92E7300BEE1CB /* signal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signal.h; sourceTree = "<group>"; };
+		8439325819E92E7300BEE1CB /* string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string.h; sourceTree = "<group>"; };
+		8439325919E92E7300BEE1CB /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		8439325A19E92E7300BEE1CB /* trycatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trycatch.h; sourceTree = "<group>"; };
+		8439325B19E92E7300BEE1CB /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		8439325C19E92E7300BEE1CB /* robovm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = robovm.h; sourceTree = "<group>"; };
+		8439325D19E92F1F00BEE1CB /* StaticStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticStuff.h; sourceTree = "<group>"; };
+		8439325E19E92F1F00BEE1CB /* StaticStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticStuff.m; sourceTree = "<group>"; };
+		8439326519E9383500BEE1CB /* backend.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = backend.c; sourceTree = "<group>"; };
+		8439326619E9383500BEE1CB /* backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backend.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8439322B19E92D1700BEE1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8439323619E92D1800BEE1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8439322519E92D1700BEE1CB = {
+			isa = PBXGroup;
+			children = (
+				8439323019E92D1800BEE1CB /* rvm-thread */,
+				8439323A19E92D1800BEE1CB /* rvm-threadTests */,
+				8439322F19E92D1800BEE1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8439322F19E92D1800BEE1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8439322E19E92D1800BEE1CB /* librvm-thread.a */,
+				8439323919E92D1800BEE1CB /* rvm-threadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8439323019E92D1800BEE1CB /* rvm-thread */ = {
+			isa = PBXGroup;
+			children = (
+				8439324519E92E7300BEE1CB /* jni_types.h */,
+				8439324619E92E7300BEE1CB /* jni.h */,
+				8439324719E92E7300BEE1CB /* robovm */,
+				8439325C19E92E7300BEE1CB /* robovm.h */,
+				8439325D19E92F1F00BEE1CB /* StaticStuff.h */,
+				8439325E19E92F1F00BEE1CB /* StaticStuff.m */,
+				8439326519E9383500BEE1CB /* backend.c */,
+				8439326619E9383500BEE1CB /* backend.h */,
+			);
+			path = "rvm-thread";
+			sourceTree = "<group>";
+		};
+		8439323A19E92D1800BEE1CB /* rvm-threadTests */ = {
+			isa = PBXGroup;
+			children = (
+				8439323B19E92D1800BEE1CB /* Supporting Files */,
+			);
+			path = "rvm-threadTests";
+			sourceTree = "<group>";
+		};
+		8439323B19E92D1800BEE1CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8439323C19E92D1800BEE1CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8439324719E92E7300BEE1CB /* robovm */ = {
+			isa = PBXGroup;
+			children = (
+				8439324819E92E7300BEE1CB /* access.h */,
+				8439324919E92E7300BEE1CB /* array.h */,
+				8439324A19E92E7300BEE1CB /* atomic.h */,
+				8439324B19E92E7300BEE1CB /* attribute.h */,
+				8439324C19E92E7300BEE1CB /* class.h */,
+				8439324D19E92E7300BEE1CB /* exception.h */,
+				8439324E19E92E7300BEE1CB /* field.h */,
+				8439324F19E92E7300BEE1CB /* init.h */,
+				8439325019E92E7300BEE1CB /* log.h */,
+				8439325119E92E7300BEE1CB /* memory.h */,
+				8439325219E92E7300BEE1CB /* method.h */,
+				8439325319E92E7300BEE1CB /* monitor.h */,
+				8439325419E92E7300BEE1CB /* mutex.h */,
+				8439325519E92E7300BEE1CB /* native.h */,
+				8439325619E92E7300BEE1CB /* proxy.h */,
+				8439325719E92E7300BEE1CB /* signal.h */,
+				8439325819E92E7300BEE1CB /* string.h */,
+				8439325919E92E7300BEE1CB /* thread.h */,
+				8439325A19E92E7300BEE1CB /* trycatch.h */,
+				8439325B19E92E7300BEE1CB /* types.h */,
+			);
+			path = robovm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8439322D19E92D1700BEE1CB /* rvm-thread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8439323F19E92D1800BEE1CB /* Build configuration list for PBXNativeTarget "rvm-thread" */;
+			buildPhases = (
+				8439322A19E92D1700BEE1CB /* Sources */,
+				8439322B19E92D1700BEE1CB /* Frameworks */,
+				8439322C19E92D1700BEE1CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rvm-thread";
+			productName = "rvm-thread";
+			productReference = 8439322E19E92D1800BEE1CB /* librvm-thread.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8439323819E92D1800BEE1CB /* rvm-threadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8439324219E92D1800BEE1CB /* Build configuration list for PBXNativeTarget "rvm-threadTests" */;
+			buildPhases = (
+				8439323519E92D1800BEE1CB /* Sources */,
+				8439323619E92D1800BEE1CB /* Frameworks */,
+				8439323719E92D1800BEE1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rvm-threadTests";
+			productName = "rvm-threadTests";
+			productReference = 8439323919E92D1800BEE1CB /* rvm-threadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8439322619E92D1700BEE1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mozg;
+				TargetAttributes = {
+					8439322D19E92D1700BEE1CB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					8439323819E92D1800BEE1CB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8439322919E92D1700BEE1CB /* Build configuration list for PBXProject "rvm-thread" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8439322519E92D1700BEE1CB;
+			productRefGroup = 8439322F19E92D1800BEE1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8439322D19E92D1700BEE1CB /* rvm-thread */,
+				8439323819E92D1800BEE1CB /* rvm-threadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8439323719E92D1800BEE1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8439322A19E92D1700BEE1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8439326719E9383500BEE1CB /* backend.c in Sources */,
+				8439325F19E92F1F00BEE1CB /* StaticStuff.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8439323519E92D1800BEE1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8439323D19E92D1800BEE1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8439323E19E92D1800BEE1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8439324019E92D1800BEE1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8439324119E92D1800BEE1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8439324319E92D1800BEE1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rvm-threadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8439324419E92D1800BEE1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rvm-threadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8439322919E92D1700BEE1CB /* Build configuration list for PBXProject "rvm-thread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8439323D19E92D1800BEE1CB /* Debug */,
+				8439323E19E92D1800BEE1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8439323F19E92D1800BEE1CB /* Build configuration list for PBXNativeTarget "rvm-thread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8439324019E92D1800BEE1CB /* Debug */,
+				8439324119E92D1800BEE1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8439324219E92D1800BEE1CB /* Build configuration list for PBXNativeTarget "rvm-threadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8439324319E92D1800BEE1CB /* Debug */,
+				8439324419E92D1800BEE1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8439322619E92D1700BEE1CB /* Project object */;
+}
